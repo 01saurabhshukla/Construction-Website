@@ -36,7 +36,6 @@ button {
 }
 
 .main-btn {
-  background-color: transparent;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -81,7 +80,7 @@ button {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  /* width: 5px; */
 }
 
 ::-webkit-scrollbar-track {

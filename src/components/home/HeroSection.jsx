@@ -45,12 +45,6 @@ function HeroSection() {
                 >
                   NK CONSTRUCTION
                 </h2>
-                <motion.div 
-                  initial={{ width: 0 }}
-                  animate={{ width: "100%" }}
-                  transition={{ delay: 1, duration: 0.8 }}
-                  className="h-1 bg-whitee mt-4 rounded-full"
-                ></motion.div>
               </motion.div>
               
               <motion.p 
@@ -77,7 +71,7 @@ function HeroSection() {
                       window.scrollTo({ top: y, behavior: "smooth" });
                     }
                   }}>
-                  <Button>EXPLORE OUR PROJECTS</Button>
+                  <Button to="/project-showcase">EXPLORE OUR PROJECTS</Button>
                 </Link>
               </motion.div>
             </motion.div>

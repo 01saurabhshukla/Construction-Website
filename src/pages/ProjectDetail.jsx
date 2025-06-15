@@ -69,7 +69,7 @@ function ProjectDetail() {
         </div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           {/* Left Column - Images */}
           <div className="lg:col-span-2">
             <div className="bg-whitee rounded-lg overflow-hidden shadow-lg mb-8">
@@ -247,7 +247,7 @@ function ProjectDetail() {
           </div>
 
           {/* Right Column - Agent Info */}
-          <div className="lg:col-span-1">
+          {/* <div className="lg:col-span-1">
             <div className="bg-whitee rounded-lg shadow-lg p-6 sticky top-6">
               <h3 className="text-xl font-bold text-white mb-4">Contact Agent</h3>
               
@@ -315,7 +315,7 @@ function ProjectDetail() {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>

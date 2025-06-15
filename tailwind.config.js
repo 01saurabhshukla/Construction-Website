@@ -9,7 +9,8 @@ export default {
         primary: "#F4A100",
         secondary: "#FFFFFF",
         gray: "#4B5563",
-        lightGray: "#F8F9FA",
+        // lightGray: "#F8F9FA",
+        lightGray: "white"
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
